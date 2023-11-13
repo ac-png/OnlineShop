@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>OOP CA</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <script src="https://kit.fontawesome.com/aea151848c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.6.0/build/styles/atom-one-dark.min.css">
+    <script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.6.0/build/highlight.min.js"></script>
+  </head>
+  <body>
+    <div class="columns">
+      <div class="column is-three-quarters">
+        <section class="section">
+          <div class="container">
+            <h1 id="ui_title" class="title ">
+            </h1>
+            <p id="ui_subtitle" class="subtitle">
+              Object-Oriented Programming Y1
+            </p>
+            <p class="">
+              Assignment: <span id="ui_assignment_number"></span> | <strong id="ui_student_name" class="has-text-primary"></strong> | <span id="ui_student_number"></span>
+            </p>
+          </div>
+          <span id="modal-help-btn" class="modal-help-btn-click"></span>
+          <span id="ui_run_test" class="is-pulled-right"></span>
+        </section>
+      </div>
+    </div>
+
+  <div class="columns">
+    <div class="column is-three-quarters">
+      <section id="ui_output_section" class="section pt-1">
+        <div class="container">
+          <article class="message is-light pb-4">
+            <div class="message-header">
+              <p>Output</p>
+            </div>
+            <div id="ui_output" class="message-body ml-5">
+              
+            </div>
+          </article>
+        </div>
+      </section>
+      <div id="ui_section_div"></div>
+    </div>
+    <div class="column">
+      <div id="mocha"></div>
+    </div>
+    
+  </div>
+  <footer class="footer pb-5 has-background-dark has-text-white">
+    <div class="content has-text-centered has-text-white">
+      <p>
+        YEAR 1 | <strong class="has-text-white">Object-Oriented Programming</strong><br>Mohammed Cherbatji, John Montayne, Catherine Noonan <br>
+        <a class="is-success has-text-primary " href="https://iadt.ie/">Institute of Art, Design + Technology</a><br>
+        <img class="" width="100px" src="https://iadt.ie/interface/img/logo/logo.png" />
+      </p>
+    </div>
+  </footer>
+
+
+  <div id="modal-help" class="modal">
+    <div class="modal-background modal-help-btn-click"></div>
+    <div class="modal-card">
+      <header class="modal-card-head">
+        <p class="modal-card-title"></p>
+        <button class="delete modal-help-btn-click" aria-label="close"></button>
+      </header>
+      <section class="modal-card-body">
+
+      </section>
+      <footer class="modal-card-foot">
+        <button class="button modal-help-btn-click">Cancel</button>
+      </footer>
+    </div>
+  </div>
+  
+  <script type="module" src="app.js"></script>
+  <script src="_settings.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/MohammedChe/oop-template/oop-ui.js"></script>
+</body>
+</html>
+  
